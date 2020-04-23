@@ -2,6 +2,7 @@ from ooptelivision import telivision
 
 class sony(telivision):
     def __init__(self):
+        telivision.__init__(self)
         print('this is the top model of sony telivision')
 
 tv1= sony()        
